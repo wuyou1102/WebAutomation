@@ -6,7 +6,7 @@ lowercase = 'abcdefghijklmnopqrstuvwxyz'
 uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 letters = lowercase + uppercase
 digits = '0123456789'
-hexdigits = digits + 'abcdef' + 'ABCDEF'
+hexdigits = digits + 'abcdef'
 octdigits = '01234567'
 punctuation = """!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""
 printable = digits + letters + punctuation + whitespace

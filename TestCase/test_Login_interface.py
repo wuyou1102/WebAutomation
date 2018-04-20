@@ -47,6 +47,7 @@ class LoginTest(unittest.TestCase):
         resp = self.session.post(url=Web.url_basic + Web.part_login, data=form_data)
         code, content = resp.status_code, resp.content
         self.assertNotEquals(200, code)
+        print content
 
     def get_csrf_token(self):
         resp = self.session.get(url=Web.url_basic + Web.part_index)
