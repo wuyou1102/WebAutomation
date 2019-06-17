@@ -14,7 +14,6 @@ def join(path, *paths):
 
 
 work_dir = abspath(dirname(sys.argv[0]))
-work_dir = 'D:\Profile\Desktop\WebAutomation'
 log_dir = join(work_dir, 'Log')
 report_dir = join(work_dir, 'Report')
 tc_dir = join(work_dir, 'TestCase')
